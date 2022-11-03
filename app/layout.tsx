@@ -1,4 +1,5 @@
 import './globals.css'
+import { useSearchParams } from 'next/navigation';
 
 export default function RootLayout({
   children,
